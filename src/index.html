@@ -13,9 +13,24 @@
       <div class="header-image"></div>
     </header>
     <div id="messages">
-      <ul id="messages-list">
-        <li class="message">(23:59:00) <span class="message-user">Lucas</span> <span class="message-type">fala para</span> Todos: Olá pessoal!</li>
-      </ul>
+      <ul id="messages-list"></ul>
     </div>
+    <!-- footer start -->
+    <footer id="footer">
+      <div class="footer-user">
+        <label for="username">Nome:</label>
+        <input type="text" id="username" />
+      </div>
+      <button id="login">Entrar</button>
+      <select id="message-type">
+        <option value="fala para">fala para</option>
+        <option value="grita para">grita para</option>
+        <option value="sussurra para">sussurra para</option>
+      </select>
+      <select id="message-to"></select>
+      <input id="message-content" disabled>
+      <button id="message-submit" disabled>Enviar</button>
+    </footer>
+    <!-- footer end -->
   </body>
 </html>

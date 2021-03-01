@@ -1,0 +1,47 @@
+#footer {
+    background: var(--primary-color);
+    font-family: arial;
+    border-top: 3px inset;
+    padding: 30px 20px;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+#footer > * {
+    margin: 10px 20px 10px 0;
+}
+
+#footer > *:last-child {
+    margin-right: 0px;
+}
+
+#footer input, select {
+    font-family: times new roman;
+    border: 3px inset;
+    padding: 3px;
+    font-size: 15px;
+}
+
+#footer input[disabled] {
+    background: var(--bg-color);
+}
+
+#footer button {
+    background: var(--bg-color);
+    font-family: times new roman;
+    border: 3px outset;
+    padding: 3px 5px;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+#footer button:active {
+    border: 3px inset;
+}
+
+#footer .footer-user {
+    font-family: times new roman;
+    font-weight: bold;
+}

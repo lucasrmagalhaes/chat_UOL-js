@@ -1,12 +1,12 @@
 /** Variáveis de CSS */
 :root {
-    --bg-color: #E0E0E0; 
+    --bg-color: #E0E0E0;
     --primary-color: #84CD7B;
 }
 
-body {
-    background: var(--bg-color); 
+html, body {
     height: 100%;
+    background: var(--bg-color); 
 }
 
 body {
@@ -16,3 +16,4 @@ body {
 
 @import './header.css';
 @import './messages.css';
+@import './footer.css';

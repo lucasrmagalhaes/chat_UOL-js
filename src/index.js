@@ -1,4 +1,6 @@
 import 'reset-css';
-import './styles/index.css';
 
-console.log('App running');
+import './styles/index.css';
+import { app } from './modules';
+
+app();
