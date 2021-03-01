@@ -6,6 +6,13 @@
 
 body {
     background: var(--bg-color); 
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
 }
 
 @import './header.css';
+@import './messages.css';

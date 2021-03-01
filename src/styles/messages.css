@@ -1,0 +1,17 @@
+#messages {
+    overflow-y: scroll;
+    flex: 1;
+    font-family: times new roman;
+}
+
+#messages .message {
+    margin: 0px 20px 20px;
+}
+
+#messages .message-user {
+    font-weight: bold;
+}
+
+#messages .message-type {
+    font-style: italic;
+}
