@@ -1,0 +1,42 @@
+{
+  "name": "socket-client",
+  "version": "1.0.0",
+  "description": "Socket client for DIO lesson",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open --mode development",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/celso-henrique/socket-client.git"
+  },
+  "keywords": [
+    "socket.io",
+    "front-end",
+    "chat"
+  ],
+  "author": "“Celso <“celso.henrique@hotmail.com.br”>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/celso-henrique/socket-client/issues"
+  },
+  "homepage": "https://github.com/celso-henrique/socket-client#readme",
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.3",
+    "file-loader": "^6.0.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "reset-css": "^5.0.1",
+    "style-loader": "^1.2.1"
+  }
+}
