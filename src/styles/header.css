@@ -1,0 +1,67 @@
+#header {
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.header-content {
+    background: var(--primary-color);
+    font-family: arial;
+    border: 3px ridge;
+    flex: 1;
+    padding: 20px;
+}
+
+.header-content h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #fff;
+    padding: 5px;
+    border: 5px solid black;
+    display: inline-block;
+    position: relative;
+}
+
+.header-content h1:before {
+    position: absolute;
+    content: '';
+    bottom: -25px;
+    right: 15px;
+    border: 10px solid transparent;
+    border-top-color: black;
+}
+
+.header-content h2 {
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.header-content h1:after {
+    position: absolute;
+    content: '';
+    bottom: -19px;
+    right: 15px;
+    border: 10px solid transparent;
+    border-top-color: #fff;
+}
+
+.header-image {
+    margin-left: 30px;
+    height: 100px;
+    width: 200px;
+    border: 3px inset;
+    position: relative;
+}
+
+.header-image:before {
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    background: url(../assets/not-found.png) center center;
+    background-size: cover;
+}
