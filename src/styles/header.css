@@ -14,7 +14,7 @@
 
 .header-content h1 {
     font-size: 20px;
-    text-transform: uppercase;
+    text-transform: uppercase; /** Sempre maiúsculo */
     font-weight: bold;
     background: #fff;
     padding: 5px;
@@ -23,7 +23,7 @@
     position: relative;
 }
 
-.header-content h1:before {
+.header-content h1:before { /** Triângulo Embaixo - Preto */
     position: absolute;
     content: '';
     bottom: -25px;
@@ -32,19 +32,20 @@
     border-top-color: black;
 }
 
-.header-content h2 {
-    margin-top: 20px;
-    font-size: 17px;
-    font-weight: bold;
-}
 
-.header-content h1:after {
+.header-content h1:after { /** Triângulo Em cima - Branco */
     position: absolute;
     content: '';
     bottom: -19px;
     right: 15px;
     border: 10px solid transparent;
     border-top-color: #fff;
+}
+
+.header-content h2 {
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: bold;
 }
 
 .header-image {
